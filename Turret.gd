@@ -14,7 +14,7 @@ const FLASH_TIME = 0.1
 var flash_timer = 0
 
 # The amount of time (in seconds) needed to fire
-const FIRE_TIME = 0.8
+const FIRE_TIME = 0.1
 # A variable for tracking how long it has been since we last fired
 var fire_timer = 0
 
@@ -27,9 +27,9 @@ var node_flash_two = null
 # The amount of ammo currently in the turret
 var ammo_in_turret = 20
 # The amount of ammo in a full turret
-const AMMO_IN_FULL_TURRET = 20
+const AMMO_IN_FULL_TURRET = 2000
 # The amount of time (in seconds) it takes for the turret to reload
-const AMMO_RELOAD_TIME = 4
+const AMMO_RELOAD_TIME = 1
 # A variable for tracking how long it has been since we started reloading
 var ammo_reload_timer = 0
 

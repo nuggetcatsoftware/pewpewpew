@@ -6,7 +6,7 @@ extends KinematicBody
 const GRAVITY = -24.8
 var vel = Vector3()
 const MAX_SPEED = 20
-const JUMP_SPEED = 18
+const JUMP_SPEED = 13
 const ACCEL= 4.5
 
 # A vector for storing the direction the player intends to move towards.
