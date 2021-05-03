@@ -1,7 +1,7 @@
 extends RigidBody
 
 # The amount of damage the grenade causes when it explodes
-const GRENADE_DAMAGE = 60
+const GRENADE_DAMAGE = 1000
 
 # The amount of time the grenade takes (in seconds) to explode once it's created/thrown
 const GRENADE_TIME = 2
