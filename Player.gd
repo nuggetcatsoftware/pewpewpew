@@ -32,11 +32,11 @@ var rotation_helper
 # The sensitivity of the mouse
 # (Higher values equals faster movements with the mouse. Lower values equals slower movements with the mouse)
 # (You may need to adjust depending on the sensitivity of your mouse)
-var MOUSE_SENSITIVITY = 0.05
+var MOUSE_SENSITIVITY = 0.08
 # The value of the scroll wheel (relative to our current weapon)
 var mouse_scroll_value = 0
 # How much a single scroll action increases mouse_scroll_value
-const MOUSE_SENSITIVITY_SCROLL_WHEEL = 0.08
+const MOUSE_SENSITIVITY_SCROLL_WHEEL = 0.1
 
 # The sensitivity of the joypad's joysticks.
 # (Higher values equals faster movements with the mouse. Lower values equals slower movements with the mouse)
